@@ -8,7 +8,7 @@ cover:
     url: "/cover1.png"
     square: "/cover1.png"
     alt: "cover"
-tags: ["React", "Promise"]
+tags: ["前端", "React", "Promise"]
 theme: "light"
 featured: true
 ---
