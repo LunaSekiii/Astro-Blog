@@ -10,7 +10,7 @@ cover:
     alt: "cover"
 tags: ["博客", "日志", "备忘录"]
 theme: "light"
-featured: true
+featured: false
 ---
 
 ## 日志
@@ -26,6 +26,10 @@ featured: true
 ## 备忘录
 
 ### 样式
+
+- 标题大小
+
+  修改了 h2 至 h5 的大小
 
 #### 图片
 
