@@ -2,7 +2,7 @@
 layout: "../../layouts/MarkdownPost.astro"
 title: "14届蓝桥Web国赛详解（1-2）"
 pubDate: 2023-06-11
-description: ""
+description: "css布局、 js的dom基本操作"
 author: "LunaSeki"
 cover:
     url: "/cover2.png"
@@ -234,7 +234,7 @@ grid-area: 1 / 2 / 3 / 4;
 
 2. 显示日志
    题目同样为我们选择了 dom 元素，只需创建一个 div 元素并设置为日志容器的子元素即可
-   题目还要求只显示最新的 10 条记录，那么届可以通过元素的`childElementCount`属性检测子元素数量，再按顺序删除最早的元素即可
+   题目还要求只显示最新的 10 条记录，那么就可以通过元素的`childElementCount`属性检测子元素数量，再按顺序删除最早的元素即可
 
 ### 题解
 
