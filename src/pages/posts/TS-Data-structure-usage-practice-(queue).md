@@ -2,7 +2,8 @@
 layout: "../../layouts/MarkdownPost.astro"
 title: "TS的数据结构使用实战（队列）"
 pubDate: 2023-08-26
-description: ""
+description: "本系列文章会从实践的角度去讲解一些常用的数据结构在ts中的应用实例，因为要保证数据结构的通用性，把数据结构和数据本身的类型分离开，所以就会用到ts的泛型。
+本文讲的是队列在ts中的实战。"
 author: "LunaSeki"
 cover:
     url: "/cover7.png"
@@ -10,7 +11,7 @@ cover:
     alt: "cover"
 tags: ["前端", "typescript", "数据结构"]
 theme: "light"
-featured: true
+featured: false
 ---
 
 ## 引言
@@ -78,7 +79,7 @@ type Queue<T> = {
 	size: () => number;
 };
 
-function newStack<T>(): Queue<T> {
+function newQueue<T>(): Queue<T> {
 	let items: T[] = [];
 	return {
 		enqueue: (item: T) => {
