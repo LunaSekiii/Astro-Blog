@@ -26,7 +26,7 @@ featured: false
 
 树是一种非常常见的数据结构，它由一系列节点组成，每个节点可以有零个或多个子节点。
 
-<p align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f9c9e3d94e154ba1b083b9fd6807a42b~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=300&h=282&e=png&a=1&b=fbfbfb" alt="tree.png" width="50%" /></p>
+<p align=center><img src="https://s2.loli.net/2023/08/28/pnlm6UwsVabyWQM.png" alt="tree.png" width="50%" /></p>
 
 树的种类又很多，以下是维基百科中给出的树的种类：
 
