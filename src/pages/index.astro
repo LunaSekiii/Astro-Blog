@@ -10,10 +10,10 @@ allPosts.sort(
 ---
 
 <BaseLayout>
-	<section class="everydayfeed">
-		<div class="section-content">
-			<h2 class="section-head">最新文章</h2>
-			<ul role="list" class="section-tiles">
+	<section class='everydayfeed'>
+		<div class='section-content'>
+			<h2 class='section-head'>最新文章</h2>
+			<ul role='list' class='section-tiles'>
 				{
 					// tile-hero
 					allPosts.slice(0, 1).map((post) => {
@@ -24,7 +24,7 @@ allPosts.sort(
 								date={post.frontmatter.pubDate}
 								tags={post.frontmatter.tags}
 								cover={post.frontmatter.cover.url}
-								level="1"
+								level='1'
 							/>
 						);
 					})
@@ -40,7 +40,7 @@ allPosts.sort(
 								date={post.frontmatter.pubDate}
 								tags={post.frontmatter.tags}
 								cover={post.frontmatter.cover.url}
-								level="2"
+								level='2'
 							/>
 						);
 					})
@@ -56,7 +56,7 @@ allPosts.sort(
 								date={post.frontmatter.pubDate}
 								tags={post.frontmatter.tags}
 								cover={post.frontmatter.cover.url}
-								level="3"
+								level='3'
 							/>
 						);
 					})
@@ -65,11 +65,11 @@ allPosts.sort(
 		</div>
 	</section>
 
-	<section class="more-from-newsroom">
-		<div class="section-content">
-			<h2 class="section-head">更多文章</h2>
+	<section class='more-from-newsroom'>
+		<div class='section-content'>
+			<h2 class='section-head'>更多文章</h2>
 
-			<ul role="list" class="section-tiles">
+			<ul role='list' class='section-tiles'>
 				{
 					// tile-2up
 					allPosts.slice(0, 6).map((post) => {
@@ -85,12 +85,12 @@ allPosts.sort(
 					})
 				}
 			</ul>
-			<div class="view-archive-wrapper">
+			<div class='view-archive-wrapper'>
 				<a
-					href="/archive"
-					class="cta-primary-light"
-					data-analytics-region="router"
-					data-analytics-title="view archive">阅读历史文章</a
+					href='/archive'
+					class='cta-primary-light'
+					data-analytics-region='router'
+					data-analytics-title='view archive'>阅读历史文章</a
 				>
 			</div>
 		</div>
