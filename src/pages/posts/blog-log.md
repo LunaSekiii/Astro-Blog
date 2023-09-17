@@ -21,15 +21,19 @@ featured: false
 
 有一说一，Astro 项目确实快~~
 
+### 23-09-17
+
+使用[giscus](https://giscus.app/zh-CN)做了博客的评论系统
+
 <!-- ![Astro | wide]() -->
 
 ## 备忘录
 
 ### 样式
 
-- 标题大小
+-   标题大小
 
-  修改了 h2 至 h5 的大小
+    修改了 h2 至 h5 的大小
 
 #### 图片
 

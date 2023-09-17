@@ -3,12 +3,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ArchivePostList from "../layouts/ArchivePostList.astro";
 ---
 
-<BaseLayout primaryTitle="404 Not Found">
-	<section class="archive">
-		<div class="section-content section-tag">
-			<div class="archive-tag">
-				<h2 class="tag-header">404 Not Found</h2>
-				<div class="tag-post-list">饮茶先啦🍵</div>
+<BaseLayout primaryTitle='404 Not Found'>
+	<section class='archive'>
+		<div class='section-content section-tag'>
+			<div class='archive-tag'>
+				<h2 class='tag-header'>你似乎进入了一个不存在的地方</h2>
+				<div class='component-content'>
+					<img
+						style='width: 100%'
+						src='https://s2.loli.net/2023/09/17/6msCSVb1E7WOplJ.png'
+						alt='派大星：这是什么地方啊'
+					/>
+				</div>
+				<br />
+				<div class='tag-post-list'>
+					页面不存在，可能是：
+					<ol>
+						<li>🗑文章被删除</li>
+						<li>❌URL错误</li>
+					</ol>
+				</div>
+				<br />
+				<div class='tag-post-list'>饮茶先啦🍵</div>
 			</div>
 		</div>
 	</section>
